@@ -26,4 +26,4 @@ def test_get_json():
 
 
 if __name__ == '__main__':
-    app.run(host="127.0.0.1", port="7070")
+    app.run(debug=False, host='0.0.0.0')
