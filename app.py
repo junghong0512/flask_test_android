@@ -251,7 +251,4 @@ def get_timenow():
 
 	
 if __name__ == "__main__":
-    #if platform.system() == "Linux":
-    #    setproctitle.setproctitle('ninewatt_app')
-    # app.run(host="127.0.0.1", port="5432", debug=True)
-    app.run(host="0.0.0.0", port="5000", debug=True)
+    app.run(host="0.0.0.0", port="5432", debug=True)
